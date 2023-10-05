@@ -1,0 +1,99 @@
+:root {
+  font-family: "Inter", sans-serif;
+  --color-main: #333;
+  --color-secondary: #444;
+  --color-purple: #6213d8;
+  --color-green: #75d527;
+  --color-blue: #2360d2;
+  --color-orange: #ff7f50;
+  --color-page: #faf9f6;
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 500;
+  color: var(--color-secondary);
+  background-color: var(--color-page);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+p,
+a {
+  font-size: 1.5rem;
+}
+
+section {
+  margin: 10rem 0 0 10rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.technologies-box {
+  gap: 2rem;
+  align-content: space-between;
+}
+
+.technologies-box i {
+  font-size: 5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.row-gap-large {
+  row-gap: 10rem;
+}
+
+.column-gap-small {
+  column-gap: 1rem;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.btn {
+  margin: 1rem 0;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #75d527;
+}
+
+img {
+  width: 50%;
+}
+
+img:hover {
+  width: 100%;
+}
+
+.section-requirements i {
+  font-size: 2rem;
+  color: #75d527;
+}
