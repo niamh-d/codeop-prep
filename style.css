@@ -96,12 +96,12 @@ UTILITY CLASSES
   align-items: center;
 }
 
-.row-gap-large {
-  row-gap: 6rem;
+.row-gap-40 {
+  row-gap: 4rem;
 }
 
-.column-gap-medium {
-  column-gap: 3rem;
+.column-gap-60 {
+  column-gap: 6rem;
 }
 
 .grid-2 {
@@ -196,7 +196,7 @@ SECTION WORK
 */
 
 .section-work {
-  max-width: 100rem;
+  max-width: 110rem;
 }
 
 .section-work a:hover {
